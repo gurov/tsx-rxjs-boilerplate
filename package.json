@@ -1,0 +1,57 @@
+{
+  "name": "tsx-rxjs-boilerplate",
+  "version": "0.1.0",
+  "description": "A Typescript + React + Rx boilerplate to create new projects with Webpack",
+  "main": "index.ts",
+  "scripts": {
+    "build": "webpack -p",
+    "dev": "webpack-dev-server --hot",
+    "test": "jest --updateSnapshot"
+  },
+  "keywords": [],
+  "author": "Pavel Gurov <lucius.gu@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack-dev-server": "~2.4.5"
+  },
+  "dependencies": {
+    "@reactivex/rxjs": "^5.4.3",
+    "@types/jest": "^20.0.6",
+    "@types/node": "8.0.20",
+    "@types/react": "^16.0.2",
+    "@types/react-dom": "^15.5.2",
+    "@types/react-router-dom": "^4.0.7",
+    "awesome-typescript-loader": "^3.2.3",
+    "css-loader": "~0.28.1",
+    "extract-text-webpack-plugin": "~2.1.0",
+    "html-loader": "~0.4.5",
+    "html-webpack-plugin": "^2.30.1",
+    "img-loader": "~2.0.0",
+    "jest": "^20.0.4",
+    "jsdom": "11.1.0",
+    "jsdom-global": "3.0.2",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-router-dom": "^4.1.2",
+    "react-test-renderer": "^15.6.1",
+    "rxjs": "^5.4.3",
+    "source-map-loader": "^0.2.1",
+    "style-loader": "~0.17.0",
+    "ts-jest": "^20.0.10",
+    "ts-node": "~3.0.4",
+    "typescript": "~2.3.2",
+    "url-loader": "~0.5.8",
+    "webpack": "~2.5.1"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "transform": {
+      "\\.(ts|tsx)$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "/.*\\.test.(ts|tsx|js)$"
+  }
+}

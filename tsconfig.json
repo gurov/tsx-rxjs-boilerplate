@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitAny": false,
+    "removeComments": true,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "preserveConstEnums": true,
+    "outDir": "./dist/",
+    "target": "es5",
+    "lib": [ "es2015", "dom" ],
+    "jsx": "react",
+    "sourceMap": true,
+    "allowJs": true,
+    "types": [
+      "jest"
+    ],
+    "typeRoots": [
+      "node_modules",
+      "node_modules/@types"
+    ]
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.test.ts"
+  ]
+}
