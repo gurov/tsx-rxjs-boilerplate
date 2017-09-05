@@ -6,6 +6,7 @@ A Typescript + React + Rx boilerplate to create new projects
 * React
 * RxJs
 * Webpack 2
+* Jest
 
 ## For the convenience of development:
 
